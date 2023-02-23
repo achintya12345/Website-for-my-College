@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name = "viewport" content = "with-device-width, intial-scale = 1.0"> 
+    <title>Manipal Institute of Technology, Manipal</title>
+    <link rel = "stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class = "sub-header">
+        <nav>
+            <div class = "nav-links" id = "navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href = "index.html">HOME</a></li>
+                    <li><a href = "course.html">COURSE</a></li>
+                    <li><a href = "blog.html">BLOG</a></li>
+                    <li><a href = "about.html">ABOUT</a></li>
+                    <li><a href = "contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Courses</h1>
+
+    </section>
+<!-------------course------------->
+
+    <section class="course">
+        <h1>Courses we offer</h1>
+        <p>350+ Courses up for grab</p>
+
+        <div class="row">
+            <div class="course-col">
+                <h3>Under Graduate (UG) Programs</h3>
+                <p> B.Tech &nbsp;&nbsp; BArch &nbsp;&nbsp; MBBS &nbsp;&nbsp; BBA &nbsp;&nbsp; BCom</p>
+            </div>
+            <div class="course-col">
+                <h3>Post Graduate (PG) Programs</h3>
+                <p>MTech &nbsp;&nbsp; ME &nbsp;&nbsp; MPharm</p>
+            </div>
+            <div class="course-col">
+                <h3>PhD</h3>
+                <p>Health Sciences &nbsp;&nbsp; Science Technology</p>
+            </div>
+        </div>
+    </section>
+
+<!-------------Facilities-1------------->
+
+    <section class="facilities">
+        <h1>Our Courses</h1>
+        <p>350+ Courses</p>
+        <div class="row">
+            <div class="facilities-col">
+                <img src="IMAGES/download (3).jpg">
+                <h3>Electrical and Electronics Engineering</h3>
+                <p>ECE - EEE - EIE - MEC</p>
+            </div>
+            <div class="facilities-col">
+                <img src="IMAGES/download (4).jpg">
+                <h3>IT and Computer Science Engineering</h3>
+                <p>CSE - IT - ML - AI - CCE</p>
+            </div>
+            <div class="facilities-col">
+                <img src="IMAGES/1609326654phpWq5bKk.jpg">
+                <h3>Medical Science and Technology</h3>
+                <p>MBBS - DENTAL - CARDIOLOGY</p>
+            </div>
+        </div>
+    </section>
+
+<!-------------Facilities-2------------->
+
+<section class="facilities">
+    <h1>Our Sport Facilities</h1>
+    <p>World Class Sport Facilities</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="IMAGES/Cricket_at_The_Doon_School.jpg">
+            <h3>Cricket Ground</h3>
+            <p>50 acre of Cricket Facilites</p>
+        </div>
+        <div class="facilities-col">
+            <img src="IMAGES/download (5).jpg">
+            <h3>Swimming pool</h3>
+            <p>100 metre ntational level facility</p>
+        </div>
+        <div class="facilities-col">
+            <img src="IMAGES/Cleatham-Centre-Court-006-2-1-scaled.jpeg">
+            <h3>Tennis Court</h3>
+            <p>8 Tennis Court spread across the campus </p>
+        </div>
+    </div>
+</section>
+
+<!-------------Facilities-3------------->
+
+<section class="facilities">
+    <h1>Our Canteens</h1>
+    <p>World Class Cuisines</p>
+    <div class="row">
+        <div class="facilities-col">
+            <img src="IMAGES/the-best-top-10-indian-dishes.jpg">
+            <h3>Indian Cuisine</h3>
+        </div>
+        <div class="facilities-col">
+            <img src="IMAGES/download (6).jpg">
+            <h3>Italian Cuisine</h3>
+        </div>
+        <div class="facilities-col">
+            <img src="IMAGES/download (7).jpg">
+            <h3>Thai Cuisine</h3>
+        </div>
+    </div>
+</section>
+
+<!-------------Footer------------->
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p> Udupi - Karkala Rd, Eshwar Nagar, Manipal, Karnataka 576104</p>
+        <div class="icons">
+            <i class="fa fa-facebook" ></i>
+            <i class="fa fa-twitter" ></i>
+            <i class="fa fa-instagram" ></i>
+            <i class="fa fa-linkedin" ></i>
+        </div>
+    </section>
+
+<!-------------Toggle menu------------->
+
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>
